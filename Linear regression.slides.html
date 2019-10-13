@@ -13836,14 +13836,14 @@ dtype: int64</pre>
 </div>
 </div>
 
-</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Data-visualization">Data visualization<a class="anchor-link" href="#Data-visualization">&#182;</a></h3>
 </div>
 </div>
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[20]:</div>
@@ -14160,28 +14160,28 @@ dtype: float64</pre>
 <h3 id="Regression-coefficient-(coef):">Regression coefficient (coef):<a class="anchor-link" href="#Regression-coefficient-(coef):">&#182;</a></h3><h4 id="It-represents-the-change-in-the-target-variable-due-to-change-of-one-predictor-variable-by-one-unit-when-other-predictor-variables-are-constant.">It represents the change in the target variable due to change of one predictor variable by one unit when other predictor variables are constant.<a class="anchor-link" href="#It-represents-the-change-in-the-target-variable-due-to-change-of-one-predictor-variable-by-one-unit-when-other-predictor-variables-are-constant.">&#182;</a></h4><h4 id="We-have-selected-two-predictor-variables-based-on-their-coef-value.-They-are-&quot;RM&quot;,-&quot;LSTAT&quot;.">We have selected two predictor variables based on their coef value. They are "RM", "LSTAT".<a class="anchor-link" href="#We-have-selected-two-predictor-variables-based-on-their-coef-value.-They-are-&quot;RM&quot;,-&quot;LSTAT&quot;.">&#182;</a></h4><h4 id="The-coefs-values-for-these-variables-are-5.09,--0.64.">The coefs values for these variables are 5.09,- 0.64.<a class="anchor-link" href="#The-coefs-values-for-these-variables-are-5.09,--0.64.">&#182;</a></h4>
 </div>
 </div>
-</div></div></section></section><section><section>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Standard-error:">Standard error:<a class="anchor-link" href="#Standard-error:">&#182;</a></h3><h4 id="It-measures-the-accuracy-of-coefficient-by-estimating-the-variation-of-the-coefficient-if-the-same-test-were-run-on-a-different-sample-of-our-population.-The-standard-errors-are-0.444-and-0.044.">It measures the accuracy of coefficient by estimating the variation of the coefficient if the same test were run on a different sample of our population. The standard errors are 0.444 and 0.044.<a class="anchor-link" href="#It-measures-the-accuracy-of-coefficient-by-estimating-the-variation-of-the-coefficient-if-the-same-test-were-run-on-a-different-sample-of-our-population.-The-standard-errors-are-0.444-and-0.044.">&#182;</a></h4>
 </div>
 </div>
-</div><div class="fragment">
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Hypothesis-testing-and-p-value">Hypothesis testing and p-value<a class="anchor-link" href="#Hypothesis-testing-and-p-value">&#182;</a></h3><h4 id="(1)-We-assumes-the-null-hypothesis-that-there-is-no-linear-relationship-between-predictor-and-target-variables.-So,-linear-coefficients-would-be-zero.">(1) We assumes the null hypothesis that there is no linear relationship between predictor and target variables. So, linear coefficients would be zero.<a class="anchor-link" href="#(1)-We-assumes-the-null-hypothesis-that-there-is-no-linear-relationship-between-predictor-and-target-variables.-So,-linear-coefficients-would-be-zero.">&#182;</a></h4><h4 id="(2)-Instead-of-that-we-have-got-the-non-zero-value-of-the-coefficients-whch-rejects-the-null-hypothesis.">(2) Instead of that we have got the non zero value of the coefficients whch rejects the null hypothesis.<a class="anchor-link" href="#(2)-Instead-of-that-we-have-got-the-non-zero-value-of-the-coefficients-whch-rejects-the-null-hypothesis.">&#182;</a></h4><h4 id="(3)-The-p-value-corresponds-to-the-probability-that-the-coefficient-is-actually-zero.-Here,-p-value-is-very-small-(&lt;0.05)-and-it-is-zero-for-both-predictor.-We-can-reject-the-null-hypothesis.-We-can-say-that-there-is-linear-dependence-of-the-house-price-on-the-predictor-variables-&quot;RM&quot;-and-&quot;LSTAT&quot;.">(3) The p-value corresponds to the probability that the coefficient is actually zero. Here, p-value is very small (&lt;0.05) and it is zero for both predictor. We can reject the null hypothesis. We can say that there is linear dependence of the house price on the predictor variables "RM" and "LSTAT".<a class="anchor-link" href="#(3)-The-p-value-corresponds-to-the-probability-that-the-coefficient-is-actually-zero.-Here,-p-value-is-very-small-(&lt;0.05)-and-it-is-zero-for-both-predictor.-We-can-reject-the-null-hypothesis.-We-can-say-that-there-is-linear-dependence-of-the-house-price-on-the-predictor-variables-&quot;RM&quot;-and-&quot;LSTAT&quot;.">&#182;</a></h4>
 </div>
 </div>
-</div></div></section></section><section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Confidence-interval:">Confidence interval:<a class="anchor-link" href="#Confidence-interval:">&#182;</a></h3><h4 id="Confidence-interval-is-a-range-within-which-our-coefficient-is-likely-to-fall.-Here,-coefficients-are-showing-the-probable-range-of-the-estimated-coefficients.">Confidence interval is a range within which our coefficient is likely to fall. Here, coefficients are showing the probable range of the estimated coefficients.<a class="anchor-link" href="#Confidence-interval-is-a-range-within-which-our-coefficient-is-likely-to-fall.-Here,-coefficients-are-showing-the-probable-range-of-the-estimated-coefficients.">&#182;</a></h4><h4 id="The-cofidence-interval-for-&quot;RM&quot;-is-4.222---5.968-and-for--&quot;LSTAT&quot;-the-interval-is">The cofidence interval for "RM" is 4.222 - 5.968 and for  "LSTAT" the interval is<a class="anchor-link" href="#The-cofidence-interval-for-&quot;RM&quot;-is-4.222---5.968-and-for--&quot;LSTAT&quot;-the-interval-is">&#182;</a></h4><h4 id="-0.728---0.556.">-0.728 - 0.556.<a class="anchor-link" href="#-0.728---0.556.">&#182;</a></h4>
 </div>
 </div>
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -14191,7 +14191,7 @@ dtype: float64</pre>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="k">import</span> <span class="n">LinearRegression</span>
@@ -14205,23 +14205,43 @@ dtype: float64</pre>
 </div>
 </div>
 
-</div></div></section></section><section><section>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Model-coefficients">Model coefficients<a class="anchor-link" href="#Model-coefficients">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment">
+</div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rig</span><span class="o">.</span><span class="n">coef_</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[27]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 5.27350522, -0.6418309 ])</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -14235,7 +14255,7 @@ dtype: float64</pre>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_pred</span><span class="o">=</span><span class="n">reg_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">);</span>
@@ -14246,6 +14266,26 @@ dtype: float64</pre>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[28]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>0.6069792285352373</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14253,10 +14293,10 @@ dtype: float64</pre>
 <h3 id="MSE,-MAE,-RMSE-computation">MSE, MAE, RMSE computation<a class="anchor-link" href="#MSE,-MAE,-RMSE-computation">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment">
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="k">import</span> <span class="n">metrics</span>
@@ -14269,33 +14309,40 @@ dtype: float64</pre>
 </div>
 </div>
 
-</div></div></section></section><section><section>
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Mean square error = 32.725071692814936
+Mean absolute error = 3.995037758700423
+Root mean square error = 5.720583160204468
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment">
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="(1)--Price-of-the-house-in-boston-depends-on-the-room-size-(&quot;RM&quot;)-and-population-density-stat-(&quot;LSTAT&quot;).">(1)  Price of the house in boston depends on the room size ("RM") and population density stat ("LSTAT").<a class="anchor-link" href="#(1)--Price-of-the-house-in-boston-depends-on-the-room-size-(&quot;RM&quot;)-and-population-density-stat-(&quot;LSTAT&quot;).">&#182;</a></h4><h4 id="(2)--Linear-coefficient-of-room-size-is-much-larger-compare-to-population-statistics.">(2)  Linear coefficient of room size is much larger compare to population statistics.<a class="anchor-link" href="#(2)--Linear-coefficient-of-room-size-is-much-larger-compare-to-population-statistics.">&#182;</a></h4><h4 id="(3)--p-value-of-both-the-individual-predictiors-reject-the-null-hypothesis-of-no-linear-relationship-between-predictors-and-the-target-value.">(3)  p-value of both the individual predictiors reject the null hypothesis of no linear relationship between predictors and the target value.<a class="anchor-link" href="#(3)--p-value-of-both-the-individual-predictiors-reject-the-null-hypothesis-of-no-linear-relationship-between-predictors-and-the-target-value.">&#182;</a></h4>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div></div></section></section>
 </div>
 </div>
